@@ -27,13 +27,13 @@ nav ul {
     border-bottom: 10px double #01949A;
 }
 
-nav li {
-    display: inline-block;
+nav ul li{
+    display:flex;
+    flex-direction: column;
 }
 
 nav a {
     color: #ffffff;
-    display: block;
     padding: 0.5rem;
     text-decoration: none;
 }
@@ -121,9 +121,5 @@ footer a {
     margin: 0 1rem 3rem 1rem;
 }
 @media (min-width:768px) {
-    header{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
+
 }
