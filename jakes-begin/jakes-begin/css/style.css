@@ -122,7 +122,7 @@ footer a {
     margin: 0 1rem 3rem 1rem;
 }
 @media (min-width:768px) {
-    nav ul li{
+    .menu ul li{
         display:inline-block;
     }
 }
